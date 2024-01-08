@@ -1,0 +1,35 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4900ff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ff00c1;
+}
+
+header {
+  background-color: #9600ff;
+  padding: 1rem;
+  text-align: center;
+  color: #00fff9;
+}
+
+button {
+  background-color: #ff00c1;
+  color: #00fff9;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+}
