@@ -15,12 +15,12 @@
         <h1>Free Censorship</h1>
     </header>
     <div class="container-fluid">
-        <form action="censor.php" method="post">
-            <div class="mb-3 w-25 mx-auto mt-5">
-                <label for="exampleFormControlTextarea1" class="form-label">Insert the text you'd like to censor</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
-                <button type="submit" class="mt-3">Submit</button>
-            </div>
+        <form action="censor.php" method="post" class="mb-3 w-25 mx-auto mt-5">
+            <label for="exampleFormControlTextarea1" class="form-label">Insert the text you'd like to censor</label>
+            <textarea class="form-control mb-3" id="exampleFormControlTextarea1" name="inputText" rows="10"></textarea>
+            <label for="censorWord" class="form-label">Enter the word to censor</label>
+            <input type="text" class="form-control" id="censorWord" name="censorWord">
+            <button type="submit" class="mt-3">Submit</button>
         </form>
 
     </div>
