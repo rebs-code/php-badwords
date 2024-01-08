@@ -33,3 +33,7 @@ button {
   line-height: 1;
   text-transform: uppercase;
 }
+
+.text-div {
+  background-color: #00fff9;
+}
